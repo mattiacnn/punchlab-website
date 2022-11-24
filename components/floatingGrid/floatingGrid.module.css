@@ -1,0 +1,64 @@
+.floatingGrid {
+    position: relative;
+    width: 100%;
+    margin-left: 50px;
+  }
+  
+  .floatingRow {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+   #one {
+    z-index: 99;
+    position: absolute;
+    top: -100px;
+  }
+   #two {
+    z-index: 98;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+  }
+   #three {
+    position: absolute;
+    z-index: 98;
+    top: 0px;
+    left:270px;
+  
+  }
+   #for {
+    position: absolute;
+    z-index: 99;
+    top: -70px;
+    left: 470px;
+  }
+  
+  #five{
+    position: absolute;
+    top: 300px;
+    z-index: 99;
+    left: 20px;
+  }
+  
+  #six{
+    position: absolute;
+    top: 430px;
+    z-index: 98;
+    left: 250px;
+  }
+  
+  #seven{
+    position: absolute;
+    top: 280px;
+    z-index: 99;
+    left: 280px;
+  }
+  
+  #eight{
+    position: absolute;
+    top: 350px;
+    z-index: 98;
+    right: 80px;
+  }

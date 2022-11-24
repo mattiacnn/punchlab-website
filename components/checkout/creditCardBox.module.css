@@ -1,0 +1,50 @@
+.main {
+  border: 1px solid #D5D5D5;
+  border-radius: 8px;
+}
+
+.mainSelected {
+  border: 1px solid #007AFF;
+}
+
+.paymentButton {
+  padding: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.paymentButtonSelected {
+  border-bottom: 1px solid #007AFF;
+  background-color: rgb(120, 161, 187, 0.1);
+}
+
+.paymentButtonSelectedAlone {
+  border-bottom: 1px solid #D5D5D5;
+}
+
+.iconsWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.paymentIcon {
+  width: 52px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.paymentIcon:last-child {
+  margin-right: 0px;
+}
+
+.card {
+  margin: 20px;
+  border: 1px solid #D5D5D5;
+  padding: 20px;
+  border-radius: 8px;
+}

@@ -1,0 +1,124 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.contentWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.content{
+  padding:20px;
+}
+
+.columns{
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  flex:1;
+}
+
+.dataColumn {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.summaryColumn {
+  flex: 1;
+  margin-left: 50px;
+}
+
+.stickySummary {
+  position: sticky;
+  top: 20px;
+}
+
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fieldInRow {
+  margin-right: 20px;
+}
+
+.fieldInRow:last-child {
+  margin-right: 0px;
+}
+
+.fieldInRow {
+  width: 10px;
+}
+
+.contactLabel {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.callToAction{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nextButton {
+  background-color: #E41D47;
+  border: 0px;
+  border-radius: 8px;
+  height: 50px;
+  width: 100%;
+  max-width: 400px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.nextButton:active{
+  opacity: 0.9;
+}
+
+
+@media (max-width: 900px) {
+
+  .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .columns{
+    width: 100%;
+    flex-direction: column;
+    flex:1;
+  }
+
+  .dataColumn {
+    margin-right: 0px;
+    width: 100%;
+  }
+
+  .summaryColumn {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .callToAction{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+}
